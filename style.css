@@ -282,7 +282,7 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
 
 .headstart { -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); border-bottom: 1px solid rgba(0, 0, 0, 0.2); position: fixed; top: initial; z-index: 1000; width: 100%; background: #FFF; }
 
-.header { font-family: 'Poppins', 'arial', sans-serif; display: inline-block; background: #FFF; list-style: none; margin: 0 auto !important; padding: 30px 50px; color: #1E5699; font-size: 21px; z-index: 2; top: 0; height: initial !important; display: block; padding: 0; }
+.header { font-family: 'Poppins', 'arial', sans-serif; display: inline-block; background: #FFF; list-style: none; margin: 0 auto !important; padding: 30px 50px; color: #1E5699; font-size: 21px; z-index: 2; top: 0; height: initial !important; display: block; padding: 0 15px; }
 
 .header ul { float: right; }
 
