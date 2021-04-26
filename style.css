@@ -282,7 +282,7 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
 
 .headstart { -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); border-bottom: 1px solid rgba(0, 0, 0, 0.2); position: fixed; top: initial; z-index: 1000; width: 100%; background: #FFF; }
 
-.header { font-family: 'Poppins', 'arial', sans-serif; display: inline-block; background: #FFF; list-style: none; margin: 0 auto !important; padding: 30px 50px; color: #1E5699; font-size: 21px; z-index: 2; top: 0; height: initial !important; display: block; padding: 0 15px; }
+.header { font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; display: inline-block; background: #FFF; list-style: none; margin: 0 auto !important; padding: 30px 50px; color: #1E5699; font-size: 21px; z-index: 2; top: 0; height: initial !important; display: block; padding: 0 15px; }
 
 .header ul { float: right; }
 
@@ -398,6 +398,8 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
 
 .home .reach .map-container { margin-top: -200px; }
 
+.donate .donate-container #ngoContentContainer div, .donate .donate-container #ngoContentContainer span, .donate .donate-container #ngoContentContainer applet, .donate .donate-container #ngoContentContainer object, .donate .donate-container #ngoContentContainer iframe, .donate .donate-container #ngoContentContainer h1, .donate .donate-container #ngoContentContainer h2, .donate .donate-container #ngoContentContainer h3, .donate .donate-container #ngoContentContainer h4, .donate .donate-container #ngoContentContainer h5, .donate .donate-container #ngoContentContainer h6, .donate .donate-container #ngoContentContainer p, .donate .donate-container #ngoContentContainer blockquote, .donate .donate-container #ngoContentContainer pre, .donate .donate-container #ngoContentContainer a, .donate .donate-container #ngoContentContainer cite, .donate .donate-container #ngoContentContainer del, .donate .donate-container #ngoContentContainer dfn, .donate .donate-container #ngoContentContainer em, .donate .donate-container #ngoContentContainer font, .donate .donate-container #ngoContentContainer q, .donate .donate-container #ngoContentContainer s, .donate .donate-container #ngoContentContainer samp, .donate .donate-container #ngoContentContainer strike, .donate .donate-container #ngoContentContainer strong, .donate .donate-container #ngoContentContainer ol, .donate .donate-container #ngoContentContainer ul, .donate .donate-container #ngoContentContainer li, .donate .donate-container #ngoContentContainer fieldset, .donate .donate-container #ngoContentContainer form, .donate .donate-container #ngoContentContainer label, .donate .donate-container #ngoContentContainer legend, .donate .donate-container #ngoContentContainer tbody, .donate .donate-container #ngoContentContainer tfoot, .donate .donate-container #ngoContentContainer thead, .donate .donate-container #ngoContentContainer tr { font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important; }
+
 .footer { background: #E6EFFB; }
 
 .footer hr { border-color: #1E5699; }
@@ -461,7 +463,12 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
 @media (min-width: 991px) { .home .banner .image-container { width: 48vw; }
   .home .aboutus .text-container { padding-right: 30px; }
   .home .aboutus .imgcontainer { padding-left: 30px; }
-  .home .ourwork .workcard .blurb { min-height: 96px; } }
+  .home .ourwork .workcard .blurb { min-height: 96px; }
+  .donate .banner { position: relative; z-index: 1; }
+  .donate .donate-form-container { margin-top: -40vh; position: relative; z-index: 3; }
+  .donate .donate-form-container .donate-container .container { position: relative; }
+  .donate .donate-form-container .donate-container .bgww { min-height: 80vh; max-height: 80vh; overflow-y: scroll; border: 5px solid #1E5699; }
+  .donate .donate-form-container .donate-container .bgww #danamojo-widget-container.container, .donate .donate-form-container .donate-container .bgww #danamojo-product-container.container { width: 100% !important; } }
 
 @media (min-width: 1340px) { .banner .image-container { right: calc((1170px - 100vw)/2); } }
 
@@ -472,4 +479,8 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
 @media (min-width: 992px) and (max-width: 1024px) { .banner .image-container { right: calc((920px - 100vw)/2); } }
 
 @media (max-width: 767px) { .page-container { padding-top: 61px; }
-  .home .aboutus .title { text-align: center; margin-bottom: 1.2em; } }
+  .home .aboutus .title { text-align: center; margin-bottom: 1.2em; }
+  .donate .donate-form-container { padding: 0; margin-top: -25px; }
+  .donate .donate-form-container .text-container { padding: 30px 45px; }
+  .donate .donate-form-container .donate-container .bgww { padding: 30px 0 0; max-height: 80vh; overflow-y: scroll; border: 2px solid #1E5699; }
+  .donate .donate-form-container .donate-container .bgww #danamojo-widget-container.container, .donate .donate-form-container .donate-container .bgww #danamojo-product-container.container { width: 100% !important; } }

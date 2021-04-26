@@ -14,6 +14,24 @@
             .workcard
                 .blurb
                     min-height: 96px
+    .donate
+        .banner
+            position: relative
+            z-index: 1
+        .donate-form-container
+            margin-top: -40vh
+            position: relative
+            z-index: 3
+            .donate-container
+                .container
+                    position: relative
+                .bgww
+                    min-height: 80vh
+                    max-height: 80vh
+                    overflow-y: scroll
+                    border: 5px solid $blue
+                    #danamojo-widget-container.container, #danamojo-product-container.container
+                        width: 100% !important
 
 @media (min-width: 1340px)
     .banner
@@ -45,5 +63,19 @@
             .title
                 text-align: center
                 margin-bottom: 1.2em
+    .donate
+        .donate-form-container
+            padding: 0
+            margin-top: -25px
+            .text-container
+                padding: 30px 45px
+            .donate-container
+                .bgww
+                    padding: 30px 0 0
+                    max-height: 80vh
+                    overflow-y: scroll
+                    border: 2px solid $blue
+                    #danamojo-widget-container.container, #danamojo-product-container.container
+                        width: 100% !important
 
 // @media (max-width: 320px)
