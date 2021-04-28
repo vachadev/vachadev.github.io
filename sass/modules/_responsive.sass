@@ -37,6 +37,13 @@
     .banner
         .image-container
             right: calc((1170px - 100vw)/2)
+    .donate
+        .non-donate
+            .card
+                min-height: 500px
+        .advocates
+            .card
+                min-height: 350px
     
 @media (min-width: 1280px) and (max-width: 1339px)
     .banner
@@ -64,6 +71,10 @@
                 text-align: center
                 margin-bottom: 1.2em
     .donate
+        .donate-form, .non-donate, .volunteer, .advocates
+            padding-bottom: 30px
+            .card
+                padding: 30px 20px
         .donate-form-container
             padding: 0
             margin-top: -25px
@@ -77,5 +88,13 @@
                     border: 2px solid $blue
                     #danamojo-widget-container.container, #danamojo-product-container.container
                         width: 100% !important
+        .non-donate, .advocates
+            .card-container:nth-child(1)
+                margin-bottom: 30px
+        .volunteer
+            .text-container
+                padding-right: 15px
+                .bg-lightgreen
+                    padding: 30px
 
 // @media (max-width: 320px)
