@@ -495,13 +495,18 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
 @media (min-width: 992px) and (max-width: 1024px) { .banner .image-container { right: calc((920px - 100vw)/2); } }
 
 @media (max-width: 767px) { .page-container { padding-top: 61px; }
-  .home .aboutus .title { text-align: center; margin-bottom: 1.2em; }
-  .donate .donate-form, .donate .non-donate, .donate .volunteer, .donate .advocates { padding-bottom: 30px; }
-  .donate .donate-form .card, .donate .non-donate .card, .donate .volunteer .card, .donate .advocates .card { padding: 30px 20px; }
-  .donate .donate-form-container { padding: 0; margin-top: -25px; }
-  .donate .donate-form-container .text-container { padding: 30px 45px; }
-  .donate .donate-form-container .donate-container .bgww { padding: 30px 0 0; max-height: 80vh; overflow-y: scroll; border: 2px solid #1E5699; }
-  .donate .donate-form-container .donate-container .bgww #danamojo-widget-container.container, .donate .donate-form-container .donate-container .bgww #danamojo-product-container.container { width: 100% !important; }
-  .donate .non-donate .card-container:nth-child(1), .donate .advocates .card-container:nth-child(1) { margin-bottom: 30px; }
-  .donate .volunteer .text-container { padding-right: 15px; }
-  .donate .volunteer .text-container .bg-lightgreen { padding: 30px; } }
+  .page-container.home .aboutus .title { text-align: center; margin-bottom: 1.2em; }
+  .page-container.donate .donate-form, .page-container.donate .non-donate, .page-container.donate .volunteer, .page-container.donate .advocates { padding-bottom: 30px; }
+  .page-container.donate .donate-form .card, .page-container.donate .non-donate .card, .page-container.donate .volunteer .card, .page-container.donate .advocates .card { padding: 30px 20px; }
+  .page-container.donate .donate-form-container { padding: 0; margin-top: -25px; }
+  .page-container.donate .donate-form-container .text-container { padding: 30px 45px; }
+  .page-container.donate .donate-form-container .donate-container .bgww { padding: 30px 0 0; max-height: 80vh; overflow-y: scroll; border: 2px solid #1E5699; }
+  .page-container.donate .donate-form-container .donate-container .bgww #danamojo-widget-container.container, .page-container.donate .donate-form-container .donate-container .bgww #danamojo-product-container.container { width: 100% !important; }
+  .page-container.donate .non-donate .card-container:nth-child(1), .page-container.donate .advocates .card-container:nth-child(1) { margin-bottom: 30px; }
+  .page-container.donate .volunteer .text-container { padding-right: 15px; }
+  .page-container.donate .volunteer .text-container .bg-lightgreen { padding: 30px; }
+  .page-container.work .ourwork .work-container .work-banner .text-container .title { text-align: center; }
+  .page-container.work .ourwork .work-container .work-banner .text-container .blurb { padding: 20px; }
+  .page-container.work .ourwork .work-container .work-banner .hr-container { display: none; }
+  .page-container.work .ourwork .work-container.bg-lightgreen .work-banner .text-container .blurb { background: #FFF; }
+  .page-container.work .ourwork .work-container.bgww .work-banner .text-container .blurb { background: #E6EFFB; } }
