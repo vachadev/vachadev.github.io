@@ -38,13 +38,13 @@ div { position: relative; }
 
 a { text-decoration: none !important; -webkit-transition: none; transition: none; color: inherit; }
 
-a:hover, a:focus, a.linked { color: #1E5699; }
+a:hover, a:focus, a.linked { color: #274BA0; }
 
 hr { margin-top: 10px; margin-bottom: 10px; width: 100%; border-color: #000; }
 
 hr.grey { opacity: .2; border-width: 10px; }
 
-hr.blue { border-color: #1E5699; border-width: 10px; }
+hr.blue { border-color: #274BA0; border-width: 10px; }
 
 hr.green { border-color: #087E68; border-width: 10px; }
 
@@ -232,15 +232,15 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
   .p3xs { font-size: 1rem; line-height: 1.625rem; }
   .p4xs { font-size: 0.875rem; line-height: 1.5rem; } }
 
-.but { color: #FFF; background: #1E5699; font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; display: block; padding: 10px 15px; text-decoration: none; text-align: center; font-weight: 400; outline: none !important; border-radius: 6px; }
+.but { color: #FFF; background: #274BA0; font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; display: block; padding: 10px 15px; text-decoration: none; text-align: center; font-weight: 400; outline: none !important; border-radius: 6px; }
 
 .but:hover, .but:focus { outline: none !important; background: #087E68; color: #FFF; }
 
 .but2 { background: #087E68; }
 
-.but3 { background: #FFF; color: #1E5699; border: 1px solid #1E5699; }
+.but3 { background: #FFF; color: #274BA0; border: 1px solid #274BA0; }
 
-.but3:hover, .but3:focus { background: #E6EFFB; border-color: #E6EFFB; color: #1E5699; }
+.but3:hover, .but3:focus { background: #E4ECFF; border-color: #E4ECFF; color: #274BA0; }
 
 .but.fw4 { font-weight: 400; }
 
@@ -262,11 +262,11 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
 
 .bgwwbox { background: #FFF; -webkit-box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2); box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2); }
 
-.bg-blue { background: #1E5699; }
+.bg-blue { background: #274BA0; }
 
 .bg-green { background: #087E68; }
 
-.bg-lightblue { background: #E6EFFB; }
+.bg-lightblue { background: #E4ECFF; }
 
 .bg-lightgreen { background: #DBECE9; }
 
@@ -276,7 +276,7 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
 
 .nobg { background: none; }
 
-.blue { color: #1E5699; }
+.blue { color: #274BA0; }
 
 .green { color: #087E68; }
 
@@ -286,7 +286,7 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
 
 .headstart { -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); border-bottom: 1px solid rgba(0, 0, 0, 0.2); position: fixed; top: initial; z-index: 1000; width: 100%; background: #FFF; }
 
-.header { font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Rubik', 'Helvetica Neue', sans-serif; display: inline-block; background: #FFF; list-style: none; margin: 0 auto !important; padding: 30px 50px; color: #1E5699; font-size: 21px; z-index: 2; top: 0; height: initial !important; display: block; padding: 0 15px; }
+.header { font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Rubik', 'Helvetica Neue', sans-serif; display: inline-block; background: #FFF; list-style: none; margin: 0 auto !important; padding: 30px 50px; color: #274BA0; font-size: 21px; z-index: 2; top: 0; height: initial !important; display: block; padding: 0 15px; }
 
 .header ul { float: right; }
 
@@ -300,17 +300,17 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
 
 .header .logo img { display: block; float: left; padding: 0; width: 150px; padding: 20px 15px; background: #FFF; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); }
 
-.header .logo:hover img { background: #E6EFFB; }
+.header .logo:hover img { background: #E4ECFF; }
 
 .header .menulist { margin-left: 160px; }
 
-.header .menulist ul li.current-menu-item a:after { content: ''; background: #1E5699; height: 4px; width: 30px; position: absolute; left: 0; right: 0; margin: 0 auto; bottom: -8px; }
+.header .menulist ul li.current-menu-item a:after { content: ''; background: #274BA0; height: 4px; width: 30px; position: absolute; left: 0; right: 0; margin: 0 auto; bottom: -8px; }
 
 .header .menulist ul li.current-menu-item.avoid a:after { display: none; }
 
 .header .menulist ul li.button { padding: 0; float: right; top: 10px; }
 
-.header .menulist ul li.button a { background: #1E5699; -webkit-transition: all 0.25s ease-in-out; transition: all 0.25s ease-in-out; color: #FFF; padding: 10px 50px; text-transform: uppercase; }
+.header .menulist ul li.button a { background: #274BA0; -webkit-transition: all 0.25s ease-in-out; transition: all 0.25s ease-in-out; color: #FFF; padding: 10px 50px; text-transform: uppercase; }
 
 .header .menulist ul li.button a:hover { background: #087E68; color: #FFF; }
 
@@ -318,11 +318,11 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
 
 .header .menulist ul li .sub-menu { display: none; opacity: 0; position: absolute; background: #FFF; padding: 10px 20px; min-width: 400px; margin-top: 15px; -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); float: right; right: 0; }
 
-.header .menulist ul li .sub-menu li { border-bottom: 1px solid #1E5699; display: block; }
+.header .menulist ul li .sub-menu li { border-bottom: 1px solid #274BA0; display: block; }
 
 .header .menulist ul li .sub-menu li.current-menu-item a:after { display: none; }
 
-.header .menulist ul li .sub-menu li.current-menu-item a { color: #1E5699; font-weight: 600; }
+.header .menulist ul li .sub-menu li.current-menu-item a { color: #274BA0; font-weight: 600; }
 
 .header .menulist ul li .sub-menu li:nth-last-child(1) { border-bottom: none; }
 
@@ -363,7 +363,7 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
   .headstart .header ul li.current-menu-item.avoid:after { display: none; }
   .headstart .header ul .submenu li.current-menu-item:after { width: calc(100vw - 30px); margin-left: -10px; }
   .headstart .header ul li.current-menu-item a { z-index: 2; }
-  .headstart .header ul li.menu-item-has-children:hover .sub-menu { position: relative; min-width: 100%; float: none; -webkit-box-shadow: none; box-shadow: none; border-left: 1px solid #1E5699; margin: 10px 0; padding: 0; }
+  .headstart .header ul li.menu-item-has-children:hover .sub-menu { position: relative; min-width: 100%; float: none; -webkit-box-shadow: none; box-shadow: none; border-left: 1px solid #274BA0; margin: 10px 0; padding: 0; }
   .headstart .header ul li.menu-item-has-children:hover .sub-menu li { font-size: 13px; line-height: 18px; padding: 10px; }
   .headstart .header .menulist { display: none; margin-top: 50px; padding-left: 0; width: 100vw; margin: 38px -30px 0 -15px; padding: 0; float: none; }
   .headstart .header .logo img { width: auto; height: 60px; -webkit-animation: none !important; animation: none !important; opacity: 1 !important; margin: -10px 0; padding: 10px 0; -webkit-box-shadow: none; box-shadow: none; }
@@ -396,13 +396,21 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
 
 .page-container.home .banner .image-container { position: absolute; height: 100%; top: 0; background-image: url("./img/home-banner.jpg"); background-position: center; background-size: cover; background-repeat: no-repeat; }
 
-.page-container.home .aboutus .imgcontainer img { border-radius: 6px; -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25); box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25); }
+.page-container.home .aboutus .imgcontainer img { border-radius: 6px; -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25); box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25); -webkit-filter: grayscale(0.95); filter: grayscale(0.95); }
 
-.page-container.home .permanence .permanence-container { background-image: url("./img/permanence-banner.jpg"); background-position: center; background-size: cover; background-repeat: no-repeat; min-height: 90vh; }
+.page-container.home .ourwork .ourwork-container .workcards .workcard .imgcontainer { position: relative; border-radius: 10px; overflow: hidden; margin-bottom: 15px; }
 
-.page-container.home .permanence .permanence-container .text-container { -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2); box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2); }
+.page-container.home .ourwork .ourwork-container .workcards .workcard .imgcontainer img { z-index: 1; -webkit-transition: -webkit-transform 0.5s ease-in-out; transition: -webkit-transform 0.5s ease-in-out; transition: transform 0.5s ease-in-out; transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out; }
 
-.page-container.home .reach .map-container { margin-top: -200px; }
+.page-container.home .ourwork .ourwork-container .workcards .workcard .imgcontainer .title { background: rgba(39, 75, 160, 0.8); color: #FFF; position: absolute; bottom: 0; width: 100%; text-align: center; z-index: 3; padding: 10px 0; }
+
+.page-container.home .ourwork .ourwork-container .workcards .workcard .imgcontainer:hover img { -webkit-transform: scale(1.15); transform: scale(1.15); }
+
+.page-container.home .permanence .permanence-container { background-image: url("./img/permanence-banner.jpg"); background-position: center; background-size: cover; background-repeat: no-repeat; min-height: 100vh; }
+
+.page-container.home .permanence .permanence-container .text-container .bgww { margin-top: -50px; -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); }
+
+.page-container.home .reach .map-container { padding-top: 20px; }
 
 .page-container.donate .donate-container #ngoContentContainer div, .page-container.donate .donate-container #ngoContentContainer span, .page-container.donate .donate-container #ngoContentContainer applet, .page-container.donate .donate-container #ngoContentContainer object, .page-container.donate .donate-container #ngoContentContainer iframe, .page-container.donate .donate-container #ngoContentContainer h1, .page-container.donate .donate-container #ngoContentContainer h2, .page-container.donate .donate-container #ngoContentContainer h3, .page-container.donate .donate-container #ngoContentContainer h4, .page-container.donate .donate-container #ngoContentContainer h5, .page-container.donate .donate-container #ngoContentContainer h6, .page-container.donate .donate-container #ngoContentContainer p, .page-container.donate .donate-container #ngoContentContainer blockquote, .page-container.donate .donate-container #ngoContentContainer pre, .page-container.donate .donate-container #ngoContentContainer a, .page-container.donate .donate-container #ngoContentContainer cite, .page-container.donate .donate-container #ngoContentContainer del, .page-container.donate .donate-container #ngoContentContainer dfn, .page-container.donate .donate-container #ngoContentContainer em, .page-container.donate .donate-container #ngoContentContainer font, .page-container.donate .donate-container #ngoContentContainer q, .page-container.donate .donate-container #ngoContentContainer s, .page-container.donate .donate-container #ngoContentContainer samp, .page-container.donate .donate-container #ngoContentContainer strike, .page-container.donate .donate-container #ngoContentContainer strong, .page-container.donate .donate-container #ngoContentContainer ol, .page-container.donate .donate-container #ngoContentContainer ul, .page-container.donate .donate-container #ngoContentContainer li, .page-container.donate .donate-container #ngoContentContainer fieldset, .page-container.donate .donate-container #ngoContentContainer form, .page-container.donate .donate-container #ngoContentContainer label, .page-container.donate .donate-container #ngoContentContainer legend, .page-container.donate .donate-container #ngoContentContainer tbody, .page-container.donate .donate-container #ngoContentContainer tfoot, .page-container.donate .donate-container #ngoContentContainer thead, .page-container.donate .donate-container #ngoContentContainer tr { font-family: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif !important; }
 
@@ -414,9 +422,9 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
 
 .page-container.work .ourwork .work-container .work-content .highlights-container .highlight:nth-last-child(1) { margin-bottom: 0; }
 
-.footer { background: #E6EFFB; }
+.footer { background: #E4ECFF; }
 
-.footer hr { border-color: #1E5699; }
+.footer hr { border-color: #274BA0; }
 
 .footer .social-icons { text-align: right; padding-bottom: 40px; }
 
@@ -426,11 +434,11 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
 
 .footer .social-icons a img { width: 35px; height: 35px; }
 
-.footer .social-icons a:hover svg .filler { fill: #1E5699; }
+.footer .social-icons a:hover svg .filler { fill: #274BA0; }
 
 .footer .popuplinks p.links { cursor: pointer; text-decoration: underline; }
 
-.footer .popuplinks p.links:hover { color: #1E5699; }
+.footer .popuplinks p.links:hover { color: #274BA0; }
 
 .footer .popuplinks p.but { text-decoration: none; margin-top: 20px; }
 
@@ -444,7 +452,7 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
 
 .footer #mc_embed_signup input[type="email"] { color: #000; font-weight: 400; width: 100%; font-size: 14px; line-height: 13px; border: 2px solid #FFF; padding: 17px 11px; background: #fff; outline: none !important; }
 
-.footer #mc_embed_signup input[type="submit"] { font-size: 14px; line-height: 18px; font-weight: 700; text-decoration: none; text-align: center; border-radius: 0; border: none !important; background: #1E5699; color: #fff; padding: 19px 0; width: 100%; outline: none !important; }
+.footer #mc_embed_signup input[type="submit"] { font-size: 14px; line-height: 18px; font-weight: 700; text-decoration: none; text-align: center; border-radius: 0; border: none !important; background: #274BA0; color: #fff; padding: 19px 0; width: 100%; outline: none !important; }
 
 @media (min-width: 992px) and (max-width: 1190px) { .footer { padding: 75px 0; }
   .footer .signup h2.marb100 { margin-bottom: 55px; } }
@@ -481,7 +489,7 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
   .donate .banner { position: relative; z-index: 1; }
   .donate .donate-form-container { margin-top: -40vh; position: relative; z-index: 3; }
   .donate .donate-form-container .donate-container .container { position: relative; }
-  .donate .donate-form-container .donate-container .bgww { min-height: 80vh; max-height: 80vh; overflow-y: scroll; border: 5px solid #1E5699; }
+  .donate .donate-form-container .donate-container .bgww { min-height: 80vh; max-height: 80vh; overflow-y: scroll; border: 5px solid #274BA0; }
   .donate .donate-form-container .donate-container .bgww #danamojo-widget-container.container, .donate .donate-form-container .donate-container .bgww #danamojo-product-container.container { width: 100% !important; } }
 
 @media (min-width: 1340px) { .banner .image-container { right: calc((1170px - 100vw)/2); }
@@ -500,7 +508,7 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
   .page-container.donate .donate-form .card, .page-container.donate .non-donate .card, .page-container.donate .volunteer .card, .page-container.donate .advocates .card { padding: 30px 20px; }
   .page-container.donate .donate-form-container { padding: 0; margin-top: -25px; }
   .page-container.donate .donate-form-container .text-container { padding: 30px 45px; }
-  .page-container.donate .donate-form-container .donate-container .bgww { padding: 30px 0 0; max-height: 80vh; overflow-y: scroll; border: 2px solid #1E5699; }
+  .page-container.donate .donate-form-container .donate-container .bgww { padding: 30px 0 0; max-height: 80vh; overflow-y: scroll; border: 2px solid #274BA0; }
   .page-container.donate .donate-form-container .donate-container .bgww #danamojo-widget-container.container, .page-container.donate .donate-form-container .donate-container .bgww #danamojo-product-container.container { width: 100% !important; }
   .page-container.donate .non-donate .card-container:nth-child(1), .page-container.donate .advocates .card-container:nth-child(1) { margin-bottom: 30px; }
   .page-container.donate .volunteer .text-container { padding-right: 15px; }
@@ -509,4 +517,4 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
   .page-container.work .ourwork .work-container .work-banner .text-container .blurb { padding: 20px; }
   .page-container.work .ourwork .work-container .work-banner .hr-container { display: none; }
   .page-container.work .ourwork .work-container.bg-lightgreen .work-banner .text-container .blurb { background: #FFF; }
-  .page-container.work .ourwork .work-container.bgww .work-banner .text-container .blurb { background: #E6EFFB; } }
+  .page-container.work .ourwork .work-container.bgww .work-banner .text-container .blurb { background: #E4ECFF; } }
