@@ -64,4 +64,27 @@ $(document).ready(function(){
             }, 2000);
         }
     });
+    var swiperA = new Swiper('.timeline .timeline-container #slider', {
+        slidesPerView: 1,
+        spaceBetween: 15,
+        grabCursor: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: '.swiper-pagination',
+        },
+        breakpoints: {
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 30
+            },
+            1024: {
+                slidesPerView: 3,
+                spaceBetween: 30
+            }
+        },
+        scrollbar: {
+            el: ".swiper-scrollbar",
+            hide: false,
+        }
+    });
 });
