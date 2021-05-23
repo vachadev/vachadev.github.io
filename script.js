@@ -64,7 +64,20 @@ $(document).ready(function(){
             }, 2000);
         }
     });
-    var swiperA = new Swiper('.timeline .timeline-container #slider', {
+    var homePageSlider = new Swiper('.donate .donate-container #slider', {
+        slidesPerView: 1,
+        spaceBetween: 15,
+        grabCursor: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: '.swiper-pagination',
+        },
+        scrollbar: {
+            el: ".swiper-scrollbar",
+            hide: false,
+        }
+    });
+    var aboutPageSlider = new Swiper('.timeline .timeline-container #slider', {
         slidesPerView: 1,
         spaceBetween: 15,
         grabCursor: true,
