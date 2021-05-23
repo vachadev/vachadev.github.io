@@ -149,6 +149,7 @@ hr.green { border-color: #087E68; border-width: 10px; }
   .padt10xs { padding-top: 10px; padding-bottom: 0; }
   .padtb10xs { padding-top: 10px; padding-bottom: 10px; }
   .nopadxs { padding-left: 0; padding-right: 0; }
+  .nopadallxs { padding: 0; }
   .nopadlxs { padding-left: 0; }
   .nopadrxs { padding-right: 0; }
   .pad15xs { padding-left: 15px; padding-right: 15px; }
@@ -398,6 +399,26 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
 
 .card { -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.25); box-shadow: 0 0 4px rgba(0, 0, 0, 0.25); }
 
+.shivamdrop.open .dropdown-menu { -webkit-box-shadow: none; box-shadow: none; border: 1px solid rgba(0, 0, 0, 0.1); border-top: 0; -webkit-transition: all 0.15s ease-in-out; transition: all 0.15s ease-in-out; }
+
+.shivamdrop .dropdown-menu > li > a { padding: 0; color: #000; padding: 5px; font-weight: 500; }
+
+.shivamdrop .dropdown-menu { background: #fff; padding: 0; -webkit-transition: all 0.15s ease-in-out; transition: all 0.15s ease-in-out; }
+
+.shivamdrop button, .shivamdrop button:hover, .shivamdrop button:active, .shivamdrop button:focus, .shivamdrop .open > .dropdown-toggle.btn-default, .shivamdrop .btn-default:active:hover { min-width: 100%; font-size: 17px; letter-spacing: 0.5px; width: 100%; background: #fff; -webkit-box-shadow: none; box-shadow: none; padding: 10px 20px; text-align: left; border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 0; color: #000; }
+
+.shivamdrop .dropdown-menu { min-width: 100%; }
+
+.shivamdrop button span { color: rgba(0, 0, 0, 0.15); }
+
+.shivamdrop .dropdown-menu > li > a:focus, .shivamdrop .dropdown-menu > li > a:hover { background: none; }
+
+.shivamdrop .dropdown-menu .divider:nth-child(1) { background-color: #000; margin: 0; }
+
+.shivamdrop .dropdown-menu .divider { margin: 0; }
+
+.shivamdrop .but { border-radius: 0; }
+
 .page-container.home .banner .image-container { position: absolute; height: 100%; top: 0; background-image: url("./img/home-banner.jpg"); background-position: center; background-size: cover; background-repeat: no-repeat; }
 
 .page-container.home .aboutus .imgcontainer img { border-radius: 6px; -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25); box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25); -webkit-filter: grayscale(0.95); filter: grayscale(0.95); }
@@ -452,18 +473,6 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
 
 .page-container.about .team .teams-container .person:hover .imgcontainer img { -webkit-transform: scale(1.2); transform: scale(1.2); }
 
-.page-container.about .team .modal.people .modal-dialog { margin-top: 150px; }
-
-.page-container.about .team .modal.people .text-cont { padding: 50px; }
-
-.page-container.about .team .modal.people .bio-img { height: 150px; width: 150px; background-position: center; background-size: cover; background-repeat: no-repeat; border-radius: 50%; margin: -150px auto 0; }
-
-.page-container.about .team .modal.people button.close { background: #274BA0; opacity: 1; padding: 10px 14px; position: absolute; bottom: -24px; border-radius: 50%; left: 47%; }
-
-.page-container.about .team .modal.people button.close img { width: 13px; }
-
-.page-container.about .team .modal.people button.close:hover { background: #000; }
-
 .page-container.about .awards .awards-container .card { padding: 20px; }
 
 .page-container.about .awards .awards-container .award-row { margin-bottom: 25px; }
@@ -477,6 +486,28 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
 .page-container.about .partners .partners-container .partner.small .img { background-size: 70px; }
 
 .page-container.about .partners .partners-container .partner.bigger .img { background-size: 130px; }
+
+.page-container.home .donate .modal.people .modal-dialog, .page-container.about .team .modal.people .modal-dialog { margin-top: 150px; }
+
+.page-container.home .donate .modal.people .text-cont, .page-container.about .team .modal.people .text-cont { padding: 50px; }
+
+.page-container.home .donate .modal.people .bio-img, .page-container.about .team .modal.people .bio-img { height: 150px; width: 150px; background-position: center; background-size: cover; background-repeat: no-repeat; border-radius: 50%; margin: -150px auto 0; }
+
+.page-container.home .donate .modal.people button.close, .page-container.about .team .modal.people button.close { background: #274BA0; opacity: 1; padding: 10px 14px; position: absolute; bottom: -24px; border-radius: 50%; left: 47%; }
+
+.page-container.home .donate .modal.people button.close img, .page-container.about .team .modal.people button.close img { width: 13px; }
+
+.page-container.home .donate .modal.people button.close:hover, .page-container.about .team .modal.people button.close:hover { background: #000; }
+
+.page-container.resources .reports-container .report img { border-radius: 8px; border: 5px solid #000; -webkit-box-shadow: -10px 10px 0 black; box-shadow: -10px 10px 0 black; -webkit-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; }
+
+.page-container.resources .reports-container .report img:hover { -webkit-box-shadow: 0 0 20px #274BA0; box-shadow: 0 0 20px #274BA0; }
+
+.page-container.resources .news-container .newscard a { display: block; -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.25); box-shadow: 0 0 5px rgba(0, 0, 0, 0.25); }
+
+.page-container.resources .news-container .newscard .news-img { background-position: center; background-size: cover; background-repeat: no-repeat; height: 225px; }
+
+.page-container.resources .news-container .newscard .blurb { min-height: 112px; padding: 20px; }
 
 .footer { background: #E4ECFF; }
 
@@ -549,7 +580,8 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
   .donate .donate-form-container .donate-container .bgww #danamojo-widget-container.container, .donate .donate-form-container .donate-container .bgww #danamojo-product-container.container { width: 100% !important; }
   .page-container.about .timeline .timeline-container .milestone .card { min-height: 225px; }
   .page-container.about .team .teams-container .person:nth-child(n+5) { margin-top: 50px; }
-  .page-container.about .team .teams-container .person:nth-child(5n+1) { clear: both; } }
+  .page-container.about .team .teams-container .person:nth-child(5n+1) { clear: both; }
+  .page-container.resources .reports-container .report:nth-child(n+5) { margin-top: 30px; } }
 
 @media (min-width: 1340px) { .page-container.home .banner .image-container { right: calc((1170px - 100vw)/2); }
   .page-container.about .impact .image-container { right: 15px; width: 45%; }
@@ -575,6 +607,19 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
 
 @media (max-width: 767px) { .page-container { padding-top: 61px; }
   .page-container.home .aboutus .title { text-align: center; margin-bottom: 1.2em; }
+  .page-container.home .ourwork .ourwork-container { padding-bottom: 0; }
+  .page-container.home .ourwork .ourwork-container .introduction { padding: 30px 15px; }
+  .page-container.home .ourwork .ourwork-container .workcards .workcard { margin-bottom: 25px; }
+  .page-container.home .ourwork .ourwork-container .workcards .workcard .imgcontainer { margin-bottom: 5px; }
+  .page-container.home .ourwork .ourwork-container .workcards .workcard .imgcontainer img { display: none; }
+  .page-container.home .ourwork .ourwork-container .workcards .workcard .imgcontainer .title { position: relative; padding: 0; text-align: left; color: #274BA0; background: none; }
+  .page-container.home .ourwork .ourwork-container .workcards .workcard .blurb { margin-bottom: 0; }
+  .page-container.home .permanence .permanence-container { min-height: initial; background: none; }
+  .page-container.home .permanence .permanence-container .imgcontainer { overflow: hidden; }
+  .page-container.home .permanence .permanence-container .imgcontainer img { width: 140%; margin-left: -20%; }
+  .page-container.home .permanence .permanence-container .text-container .bgww { margin-top: 0; padding: 30px; }
+  .page-container.home .reach { padding-top: 30px; }
+  .page-container.home .reach .text-container .bgww { padding: 30px 0 0; }
   .page-container.donate .donate-form, .page-container.donate .non-donate, .page-container.donate .volunteer, .page-container.donate .advocates { padding-bottom: 30px; }
   .page-container.donate .donate-form .card, .page-container.donate .non-donate .card, .page-container.donate .volunteer .card, .page-container.donate .advocates .card { padding: 30px 20px; }
   .page-container.donate .donate-form-container { padding: 0; margin-top: -25px; }

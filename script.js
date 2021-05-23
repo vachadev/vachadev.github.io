@@ -87,4 +87,13 @@ $(document).ready(function(){
             hide: false,
         }
     });
+    $('.dropdown-menu>li>a').on('click', function(event) {
+        var link = $(this).attr('data-link');
+        var target = $(this).attr('data-target');
+        $(target).attr('href', link);
+        var curr = $(this).text();
+        if(curr != '') {
+            $(".drop1 button").html( curr + '<span class="caret"></span>' );
+        }
+    });
 });
