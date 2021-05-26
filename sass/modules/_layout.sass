@@ -38,6 +38,11 @@
         min-width: 100%
     button span
         color: rgba(0, 0, 0, 0.15)
+    button .caret
+        position: absolute
+        right: 17px
+        border-width: 9px
+        top: 19px
     .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover
         background: none
     .dropdown-menu .divider:nth-child(1)
@@ -49,6 +54,18 @@
         border-radius: 0
 
 .page-container.home
+    #covid-popup
+        .modal-dialog
+            margin-top: 27px
+        .text-cont
+            padding: 30px 50px 50px
+            p
+                max-height: calc(100vh - 75vh)
+                overflow-y: scroll
+        button.close
+            bottom: initial
+            top: -19px
+            left: 96%
     .banner
         .image-container
             position: absolute
@@ -246,11 +263,14 @@
 .page-container.resources
     .reports-container
         .report
-            img
+            .imgcontainer
                 border-radius: 8px
                 border: 5px solid #000
                 box-shadow: -10px 10px 0 rgba(0,0,0,1)
+                @include bgdef
+                height: 350px
                 transition: all 0.5s ease-in-out
+                margin-bottom: 30px
                 &:hover
                     box-shadow: 0 0 20px $blue
     .news-container

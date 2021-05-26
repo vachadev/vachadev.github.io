@@ -411,6 +411,8 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
 
 .shivamdrop button span { color: rgba(0, 0, 0, 0.15); }
 
+.shivamdrop button .caret { position: absolute; right: 17px; border-width: 9px; top: 19px; }
+
 .shivamdrop .dropdown-menu > li > a:focus, .shivamdrop .dropdown-menu > li > a:hover { background: none; }
 
 .shivamdrop .dropdown-menu .divider:nth-child(1) { background-color: #000; margin: 0; }
@@ -418,6 +420,14 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
 .shivamdrop .dropdown-menu .divider { margin: 0; }
 
 .shivamdrop .but { border-radius: 0; }
+
+.page-container.home #covid-popup .modal-dialog { margin-top: 27px; }
+
+.page-container.home #covid-popup .text-cont { padding: 30px 50px 50px; }
+
+.page-container.home #covid-popup .text-cont p { max-height: calc(100vh - 75vh); overflow-y: scroll; }
+
+.page-container.home #covid-popup button.close { bottom: initial; top: -19px; left: 96%; }
 
 .page-container.home .banner .image-container { position: absolute; height: 100%; top: 0; background-image: url("./img/home-banner.jpg"); background-position: center; background-size: cover; background-repeat: no-repeat; }
 
@@ -501,9 +511,9 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
 
 .page-container.home .donate .modal.people button.close:hover, .page-container.about .team .modal.people button.close:hover { background: #000; }
 
-.page-container.resources .reports-container .report img { border-radius: 8px; border: 5px solid #000; -webkit-box-shadow: -10px 10px 0 black; box-shadow: -10px 10px 0 black; -webkit-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; }
+.page-container.resources .reports-container .report .imgcontainer { border-radius: 8px; border: 5px solid #000; -webkit-box-shadow: -10px 10px 0 black; box-shadow: -10px 10px 0 black; background-position: center; background-size: cover; background-repeat: no-repeat; height: 350px; -webkit-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; margin-bottom: 30px; }
 
-.page-container.resources .reports-container .report img:hover { -webkit-box-shadow: 0 0 20px #274BA0; box-shadow: 0 0 20px #274BA0; }
+.page-container.resources .reports-container .report .imgcontainer:hover { -webkit-box-shadow: 0 0 20px #274BA0; box-shadow: 0 0 20px #274BA0; }
 
 .page-container.resources .news-container .newscard a { display: block; -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.25); box-shadow: 0 0 5px rgba(0, 0, 0, 0.25); }
 
@@ -588,7 +598,8 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
   .page-container.about .timeline .timeline-container .milestone .card { min-height: 225px; }
   .page-container.about .team .teams-container .person:nth-child(n+5) { margin-top: 50px; }
   .page-container.about .team .teams-container .person:nth-child(5n+1) { clear: both; }
-  .page-container.resources .reports-container .report:nth-child(n+5) { margin-top: 30px; } }
+  .page-container.resources .reports-container .report:nth-child(n+5) { margin-top: 30px; }
+  .page-container.resources .reports-container .report:nth-child(4n+1) { clear: both; } }
 
 @media (min-width: 1340px) { .page-container.home .banner .image-container { right: calc((1170px - 100vw)/2); }
   .page-container.about .impact .image-container { right: 15px; width: 45%; }
