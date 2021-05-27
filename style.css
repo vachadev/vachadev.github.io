@@ -403,7 +403,7 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
 
 .shivamdrop .dropdown-menu > li > a { padding: 0; color: #000; padding: 5px; font-weight: 500; }
 
-.shivamdrop .dropdown-menu { background: #fff; padding: 0; -webkit-transition: all 0.15s ease-in-out; transition: all 0.15s ease-in-out; }
+.shivamdrop .dropdown-menu { background: #fff; padding: 0; -webkit-transition: all 0.15s ease-in-out; transition: all 0.15s ease-in-out; max-height: 150px; overflow-y: scroll; }
 
 .shivamdrop button, .shivamdrop button:hover, .shivamdrop button:active, .shivamdrop button:focus, .shivamdrop .open > .dropdown-toggle.btn-default, .shivamdrop .btn-default:active:hover { min-width: 100%; font-size: 17px; letter-spacing: 0.5px; width: 100%; background: #fff; -webkit-box-shadow: none; box-shadow: none; padding: 10px 20px; text-align: left; border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 0; color: #000; }
 
@@ -453,7 +453,7 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
 
 .page-container.donate .volunteer .image-container { content: ''; background-image: url("./img/donate-volunteer-banner.jpg"); background-position: center; background-size: cover; background-repeat: no-repeat; position: absolute; top: 0; right: 0; height: 100%; }
 
-.page-container.work .ourwork .work-container .work-banner .title { padding: 15px 30px; }
+.page-container.work .ourwork .work-container .work-banner .title { padding: 20px 30px; }
 
 .page-container.work .ourwork .work-container .work-content .highlights-container .highlight { padding: 20px; margin-bottom: 12.5px; }
 

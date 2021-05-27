@@ -103,10 +103,11 @@ $(document).ready(function(){
     $('.dropdown-menu>li>a').on('click', function(event) {
         var link = $(this).attr('data-link');
         var target = $(this).attr('data-target');
+        var button = $(this).attr('data-but');
         $(target).attr('href', link);
         var curr = $(this).text();
         if(curr != '') {
-            $(".drop1 button").html( curr + '<span class="caret"></span>' );
+            $(button).html( curr + '<span class="caret"></span>' );
         }
     });
 });
