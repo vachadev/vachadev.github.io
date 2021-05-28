@@ -145,6 +145,7 @@ hr.green { border-color: #087E68; border-width: 10px; }
   .pad30sm { padding-left: 30px; padding-right: 30px; } }
 
 @media (max-width: 767px) { .padtb40xs { padding: 40px 15px; }
+  .padtb30xs { padding: 30px 15px; }
   .padtb20xs { padding: 20px 15px; }
   .padt10xs { padding-top: 10px; padding-bottom: 0; }
   .padtb10xs { padding-top: 10px; padding-bottom: 10px; }
@@ -565,7 +566,8 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
   .footer .about .pad30.borr20 .imgcont.mart50 { margin-top: 25px; margin-bottom: 50px; }
   .footer .about .pad30.borr20 .email p { font-weight: 700; }
   .footer .contact { margin-left: 16.66666667%; }
-  .footer .contact h5.marb50 { margin-bottom: 25px; } }
+  .footer .contact h5.marb50 { margin-bottom: 25px; }
+  .footer .social-icons a img { width: 25px; height: 25px; } }
 
 @media (max-width: 767px) { .copyright { padding-bottom: 20px; }
   .signup .bg-blue { padding: 40px 15px; }
@@ -586,10 +588,13 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
   .contact { padding-top: 40px; }
   .contact h5.marb50 { margin-bottom: 20px; } }
 
-@media (min-width: 991px) { .home .banner .image-container { width: 48vw; }
-  .home .aboutus .text-container { padding-right: 30px; }
-  .home .aboutus .imgcontainer { padding-left: 30px; }
-  .home .ourwork .workcard .blurb { min-height: 96px; }
+@media (min-width: 768px) { .page-container.about .impact .image-container { right: 15px; width: 45%; } }
+
+@media (min-width: 991px) { .page-container.home .banner .image-container { width: 48vw; }
+  .page-container.home .aboutus .text-container { padding-right: 30px; }
+  .page-container.home .aboutus .imgcontainer { padding-left: 30px; }
+  .page-container.home .ourwork .workcard .blurb { min-height: 96px; }
+  .page-container.home .ourwork .workcard:nth-child(n+4) { padding-top: 50px; }
   .donate .banner { position: relative; z-index: 1; }
   .donate .donate-form-container { margin-top: -40vh; position: relative; z-index: 3; }
   .donate .donate-form-container .donate-container .container { position: relative; }
@@ -615,17 +620,34 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
   .page-container.about .partners .partners-container .partner:nth-child(6n+1) { clear: both; }
   .page-container.about .partners .partners-container .partner:nth-child(n+7) { padding-top: 30px; } }
 
-@media (min-width: 1025px) and (max-width: 1280px) { .page-container.home .banner .image-container { right: calc((970px - 100vw)/2); }
+@media (min-width: 1025px) and (max-width: 1280px) { .page-container { padding-top: 58px; }
+  .page-container.home .banner .image-container { right: calc((970px - 100vw)/2); }
+  .page-container.home .ourwork .workcard .blurb { min-height: 50px; }
   .page-container.about .impact .image-container { right: 15px; width: 45%; }
   .page-container.about .partners .partners-container .partner:nth-child(6n+1) { clear: both; }
   .page-container.about .partners .partners-container .partner:nth-child(n+7) { padding-top: 30px; } }
 
-@media (min-width: 992px) and (max-width: 1024px) { .page-container.home .banner .image-container { right: calc((920px - 100vw)/2); }
-  .page-container.about .impact .image-container { right: 15px; width: 45%; }
+@media (min-width: 992px) and (max-width: 1024px) { .page-container { padding-top: 58px; }
+  .page-container.home .banner .image-container { right: calc((920px - 100vw)/2); }
   .page-container.about .partners .partners-container .partner:nth-child(6n+1) { clear: both; }
   .page-container.about .partners .partners-container .partner:nth-child(n+7) { padding-top: 30px; } }
+
+@media (min-width: 768px) and (max-width: 991px) { .page-container { padding-top: 58px; }
+  .page-container.home .banner .image-container { right: calc((680px - 100vw)/2); width: 55%; }
+  .page-container.home .ourwork .workcard:nth-child(2n+1) { clear: both; }
+  .page-container.home .ourwork .workcard:nth-child(n+3) { padding-top: 30px; }
+  .page-container.home .permanence .permanence-container { min-height: 70vh; }
+  .page-container.about .banner { padding-bottom: 50px; }
+  .page-container.about .impact { padding-top: 50px; padding-bottom: 50px; }
+  .page-container.about .team .container.padtb50 { padding-bottom: 30px; }
+  .page-container.about .team .teams-container .person:nth-child(n+4) { padding-top: 30px; }
+  .page-container.about .partners .partners-container .partner:nth-child(n+5) { padding-top: 30px; }
+  .page-container.work .ourwork .work-container .work-banner { padding-top: 50px; } }
 
 @media (max-width: 767px) { .page-container { padding-top: 61px; }
+  .page-container.home #covid-popup .text-cont { padding: 15px 30px 30px; }
+  .page-container.home #covid-popup .text-cont .text { max-height: 40vh; padding-right: 15px; }
+  .page-container.home #covid-popup button.close { top: initial; bottom: -24px; left: 44%; }
   .page-container.home .banner { padding-bottom: 20px; text-align: center; }
   .page-container.home .banner h1 { font-size: 1.8rem; }
   .page-container.home .aboutus h3 { font-size: 1.8rem; }
@@ -643,7 +665,7 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
   .page-container.home .permanence .permanence-container .imgcontainer img { width: 140%; margin-left: -20%; }
   .page-container.home .permanence .permanence-container .text-container .bgww { margin-top: 0; padding: 30px; }
   .page-container.home .reach { padding-top: 30px; }
-  .page-container.home .reach .map-container { background-color: #DBECE9; padding: 30px; }
+  .page-container.home .reach .map-container { background-color: #DBECE9; padding: 30px 20px; }
   .page-container.home .reach .text-container { padding-top: 30px; }
   .page-container.home .donate .donate-container { padding-top: 0; padding-bottom: 20px; }
   .page-container.home .donate .donate-container .text-container { padding-bottom: 30px; }
@@ -657,8 +679,33 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
   .page-container.donate .non-donate .card-container:nth-child(1), .page-container.donate .advocates .card-container:nth-child(1) { margin-bottom: 30px; }
   .page-container.donate .volunteer .text-container { padding-right: 15px; }
   .page-container.donate .volunteer .text-container .bg-lightgreen { padding: 30px; }
-  .page-container.work .ourwork .work-container .work-banner .text-container .title { text-align: center; }
-  .page-container.work .ourwork .work-container .work-banner .text-container .blurb { padding: 20px; }
+  .page-container.work .ourwork .work-container .work-banner .text-container .title { text-align: center; margin-bottom: 0; }
+  .page-container.work .ourwork .work-container .work-banner .text-container .pad30 { padding: 20px; }
   .page-container.work .ourwork .work-container .work-banner .hr-container { display: none; }
   .page-container.work .ourwork .work-container.bg-lightgreen .work-banner .text-container .blurb { background: #FFF; }
-  .page-container.work .ourwork .work-container.bgww .work-banner .text-container .blurb { background: #E4ECFF; } }
+  .page-container.work .ourwork .work-container.bgww .work-banner .text-container .blurb { background: #E4ECFF; }
+  .page-container.about .banner { padding: 30px 0 0; }
+  .page-container.about .banner .text-container { padding: 0 15px 30px; }
+  .page-container.about .banner .text-container .col-xs-12.nopadleftr45 { padding-right: 0; }
+  .page-container.about .banner .quote-container { padding: 0; }
+  .page-container.about .banner .quote-container .pad30 { padding: 30px 15px; }
+  .page-container.about .impact { padding-top: 0; padding-bottom: 30px; }
+  .page-container.about .impact .text-container { padding-top: 30px; padding-right: 15px; }
+  .page-container.about .impact .text-container h4 { text-align: center; }
+  .page-container.about .timeline { padding: 30px 0 0; }
+  .page-container.about .timeline .quote-container { padding-bottom: 30px; }
+  .page-container.about .team .container.padtb50 { padding-bottom: 20px; }
+  .page-container.about .team .teams-container .person:nth-child(2n+1) { padding-right: 7.5px; clear: both; }
+  .page-container.about .team .teams-container .person:nth-child(2n+2) { padding-left: 7.5px; }
+  .page-container.about .team .teams-container .person:nth-child(n+3) { padding-top: 30px; }
+  .page-container.about .awards .container.padb50, .page-container.about .partners .container.padb50 { padding-bottom: 20px; }
+  .page-container.about .awards .awards-container .award-row { margin-bottom: 0; }
+  .page-container.about .awards .awards-container .award-row .award .row { margin-left: 0; margin-right: 0; }
+  .page-container.about .awards .awards-container .award-row .award .title { padding-left: 0; padding-right: 0; }
+  .page-container.about .awards .awards-container .award-row .award:nth-child(even) .title { text-align: left; }
+  .partners { padding-bottom: 50px; }
+  .partners .logo-container .partner:nth-child(2n+1) { padding-right: 0; clear: both; }
+  .partners .logo-container .partner:nth-child(2n+2) { padding-left: 0; }
+  .partners .logo-container .partner:nth-child(n+3) { padding-top: 0; }
+  .partners .logo-container .partner:nth-child(n+3) .img { padding-top: 30px; }
+  .partners .logo-container .partner .img { background-size: 90px; } }
