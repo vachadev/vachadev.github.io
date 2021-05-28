@@ -599,7 +599,9 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
   .page-container.about .team .teams-container .person:nth-child(n+5) { margin-top: 50px; }
   .page-container.about .team .teams-container .person:nth-child(5n+1) { clear: both; }
   .page-container.resources .reports-container .report:nth-child(n+5) { margin-top: 30px; }
-  .page-container.resources .reports-container .report:nth-child(4n+1) { clear: both; } }
+  .page-container.resources .reports-container .report:nth-child(4n+1) { clear: both; }
+  .page-container.resources .reports-container .drop-container:nth-child(2n+1) { clear: both; }
+  .page-container.resources .reports-container .drop-container:nth-child(n+3) { padding-top: 50px; } }
 
 @media (min-width: 1340px) { .page-container.home .banner .image-container { right: calc((1170px - 100vw)/2); }
   .page-container.about .impact .image-container { right: 15px; width: 45%; }
