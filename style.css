@@ -425,7 +425,7 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
 
 .page-container.home #covid-popup .text-cont { padding: 30px 50px 50px; }
 
-.page-container.home #covid-popup .text-cont p { max-height: calc(100vh - 75vh); overflow-y: scroll; }
+.page-container.home #covid-popup .text-cont .text { max-height: calc(100vh - 75vh); overflow-y: scroll; }
 
 .page-container.home #covid-popup button.close { bottom: initial; top: -19px; left: 96%; }
 
