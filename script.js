@@ -64,42 +64,46 @@ $(document).ready(function(){
             }, 2000);
         }
     });
-    var homePageSlider = new Swiper('.donate .donate-container #slider', {
-        slidesPerView: 1,
-        spaceBetween: 15,
-        grabCursor: true,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: '.swiper-pagination',
-        },
-        scrollbar: {
-            el: ".swiper-scrollbar",
-            hide: false,
-        }
-    });
-    var aboutPageSlider = new Swiper('.timeline .timeline-container #slider', {
-        slidesPerView: 1,
-        spaceBetween: 15,
-        grabCursor: true,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: '.swiper-pagination',
-        },
-        breakpoints: {
-            768: {
-                slidesPerView: 2,
-                spaceBetween: 30
+    if($('.donate .donate-container #slider').length) {
+        var homePageSlider = new Swiper('.donate .donate-container #slider', {
+            slidesPerView: 1,
+            spaceBetween: 15,
+            grabCursor: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: '.swiper-pagination',
             },
-            1024: {
-                slidesPerView: 3,
-                spaceBetween: 30
+            scrollbar: {
+                el: ".swiper-scrollbar",
+                hide: false,
             }
-        },
-        scrollbar: {
-            el: ".swiper-scrollbar",
-            hide: false,
-        }
-    });
+        });
+    }
+    if($('.timeline .timeline-container #slider').length) {
+        var aboutPageSlider = new Swiper('.timeline .timeline-container #slider', {
+            slidesPerView: 1,
+            spaceBetween: 15,
+            grabCursor: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: '.swiper-pagination',
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                }
+            },
+            scrollbar: {
+                el: ".swiper-scrollbar",
+                hide: false,
+            }
+        });
+    }
     $('.dropdown-menu>li>a').on('click', function(event) {
         var link = $(this).attr('data-link');
         var target = $(this).attr('data-target');

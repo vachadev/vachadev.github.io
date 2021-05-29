@@ -2,6 +2,10 @@
     .page-container.about .impact .image-container
         right: 15px
         width: 45%
+    .page-container.resources .reports-container .drop-container:nth-child(2n+1)
+        clear: both
+    .page-container.resources .reports-container .drop-container:nth-child(n+3)
+        padding-top: 50px
 
 @media (min-width: 991px)
     .page-container.home
@@ -48,10 +52,6 @@
         margin-top: 30px
     .page-container.resources .reports-container .report:nth-child(4n+1)
         clear: both
-    .page-container.resources .reports-container .drop-container:nth-child(2n+1)
-        clear: both
-    .page-container.resources .reports-container .drop-container:nth-child(n+3)
-        padding-top: 50px
 
 @media (min-width: 1340px)
     .page-container.home .banner .image-container
@@ -102,14 +102,26 @@
         padding-top: 58px
     .page-container.home .banner .image-container
         right: calc((920px - 100vw)/2)
-    .page-container.about .partners .partners-container .partner:nth-child(6n+1)
-        clear: both
-    .page-container.about .partners .partners-container .partner:nth-child(n+7)
-        padding-top: 30px
+    .page-container.about .partners .partners-container 
+        .partner:nth-child(6n+1)
+            clear: both
+        .partner:nth-child(n+7)
+            padding-top: 30px
+    .page-container.resources 
+        .news-container .newscard 
+            .news-img
+                height: 175px
+            .blurb
+                min-height: 76px
+        .video-container #banner-video
+            height: 330px !important
 
 @media (min-width: 768px) and (max-width: 991px)
     .page-container
         padding-top: 58px
+    .shivamdrop
+        button, button:hover, button:active, button:focus,.open>.dropdown-toggle.btn-default, .btn-default:active:hover
+            font-size: 11px
     .page-container.home 
         .banner 
             .image-container
@@ -146,10 +158,33 @@
             .work-container 
                 .work-banner
                     padding-top: 50px
+    .page-container.resources 
+        .reports-container 
+            .report 
+                .imgcontainer
+                    height: 275px
+            .report:nth-child(3n+1)
+                clear: both
+            .report:nth-child(n+4)
+                margin-top: 30px
+        .news-container .newscard .news-img
+            height: 125px
+        .video-container 
+            .padtb100.bgww
+                padding: 50px 15px
+            #banner-video
+                height: 275px !important
 
 @media (max-width: 767px)
     .page-container
         padding-top: 61px
+
+    .shivamdrop
+        button, button:hover, button:active, button:focus,.open>.dropdown-toggle.btn-default, .btn-default:active:hover
+            font-size: 14px
+            padding: 12px 20px
+        .but
+            padding: 12px 20px
 
     .page-container.home
         #covid-popup 
@@ -211,6 +246,9 @@
             .map-container
                 background-color: $lightgreen
                 padding: 30px 20px
+                .imgcontainer
+                    background: none
+                    padding: 0
             .text-container
                 padding-top: 30px
         .donate
@@ -339,4 +377,38 @@
                 .img
                     background-size: 90px
 
-// @media (max-width: 320px)
+    .page-container.resources 
+        .drop-container
+            .title
+                margin-bottom: 10px
+        .drop-container:nth-child(n+2)
+            padding-top: 30px
+        .reports-container 
+            padding-bottom: 50px
+            .container.padt100
+                padding-top: 50px
+            .report 
+                .imgcontainer
+                    box-shadow: -7px 7px 0 #000
+                    height: 225px
+                    margin-bottom: 15px
+                .p4
+                    text-align: left
+            .report:nth-child(n+3)
+                margin-top: 30px
+            .report:nth-child(2n+1)
+                clear: both
+        .news-container
+            .newscard
+                .blurb
+                    min-height: initial
+            .newscard:nth-child(n+2)
+                margin-top: 30px
+        .video-container
+            padding-bottom: 20px
+            #banner-video
+                height: 275px !important
+
+    
+    
+    // @media (max-width: 320px)
