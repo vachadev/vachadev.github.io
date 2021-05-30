@@ -598,7 +598,8 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
   .page-container.home .ourwork .workcard .blurb { min-height: 96px; }
   .page-container.home .ourwork .workcard:nth-child(n+4) { padding-top: 50px; }
   .page-container.donate .banner { position: relative; z-index: 1; }
-  .page-container.donate .donate-form-container { margin-top: -100px; position: relative; z-index: 3; }
+  .page-container.donate .donate-form-container { position: relative; z-index: 3; }
+  .page-container.donate .donate-form-container .text-container { margin-top: -100px; margin-bottom: 50px; }
   .page-container.donate .donate-form-container .donate-container .container { position: relative; }
   .page-container.donate .donate-form-container .donate-container .bgww { min-height: 80vh; max-height: 80vh; overflow-y: scroll; border: 5px solid #274BA0; }
   .page-container.donate .donate-form-container .donate-container .bgww #danamojo-widget-container.container, .page-container.donate .donate-form-container .donate-container .bgww #danamojo-product-container.container { width: 100% !important; }
