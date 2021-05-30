@@ -5,10 +5,18 @@
     .page-container.resources .reports-container .drop-container:nth-child(2n+1)
         clear: both
     .page-container.resources .reports-container .drop-container:nth-child(n+3)
-        padding-top: 50px
+        padding-top: 50px 
+    .page-container.home .donate .donate-container .swiper-wrapper 
+        .imgcontainer, .bg-blue
+            min-height: 200px
 
 @media (min-width: 991px)
     .page-container.home
+        #covid-popup
+            .modal-dialog
+                width: 65vw
+            button.close
+                left: 98%
         .banner
             .image-container
                 width: 48vw
@@ -104,6 +112,10 @@
         padding-top: 58px
     .page-container.home .banner .image-container
         right: calc((920px - 100vw)/2)
+    .page-container.home .donate .donate-container .bg-green.pad50
+        padding: 30px
+    .page-container.home .donate .donate-container .swiper-wrapper .imgcontainer, .page-container.home .donate .donate-container .swiper-wrapper .bg-blue
+        min-height: 150px
     .page-container.about .partners .partners-container 
         .partner:nth-child(6n+1)
             clear: both
@@ -196,9 +208,8 @@
                     max-height: 40vh
                     padding-right: 15px
             button.close
-                top: initial
-                bottom: -24px
-                left: 44%
+                top: -24px
+                left: 90%
         .banner
             padding-bottom: 20px
             text-align: center
@@ -254,9 +265,14 @@
             .text-container
                 padding-top: 30px
         .donate
+            padding-bottom: 20px
             .donate-container
                 padding-top: 0
                 padding-bottom: 20px
+                .bg-green.pad50, .bg-lightblue
+                    padding: 30px
+                #slider .swiper-slide .imgcontainer
+                    height: 225px
                 .text-container
                     padding-bottom: 30px
                     h3

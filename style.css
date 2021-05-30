@@ -248,6 +248,10 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
 
 .but3:hover, .but3:focus { background: #E4ECFF; border-color: #E4ECFF; color: #274BA0; }
 
+.but4 { background: #FFF; color: #087E68; border: 1px solid #087E68; }
+
+.but4:hover, .but4:focus { background: #DBECE9; border-color: #DBECE9; color: #087E68; }
+
 .but.fw4 { font-weight: 400; }
 
 .but.full { display: block; width: 100%; }
@@ -450,6 +454,8 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
 
 .page-container.home .donate #slider .swiper-slide { cursor: pointer; }
 
+.page-container.home .donate #slider .swiper-slide .imgcontainer { background-position: center; background-size: cover; background-repeat: no-repeat; }
+
 .page-container.donate .donate-container #ngoContentContainer div, .page-container.donate .donate-container #ngoContentContainer span, .page-container.donate .donate-container #ngoContentContainer applet, .page-container.donate .donate-container #ngoContentContainer object, .page-container.donate .donate-container #ngoContentContainer iframe, .page-container.donate .donate-container #ngoContentContainer h1, .page-container.donate .donate-container #ngoContentContainer h2, .page-container.donate .donate-container #ngoContentContainer h3, .page-container.donate .donate-container #ngoContentContainer h4, .page-container.donate .donate-container #ngoContentContainer h5, .page-container.donate .donate-container #ngoContentContainer h6, .page-container.donate .donate-container #ngoContentContainer p, .page-container.donate .donate-container #ngoContentContainer blockquote, .page-container.donate .donate-container #ngoContentContainer pre, .page-container.donate .donate-container #ngoContentContainer a, .page-container.donate .donate-container #ngoContentContainer cite, .page-container.donate .donate-container #ngoContentContainer del, .page-container.donate .donate-container #ngoContentContainer dfn, .page-container.donate .donate-container #ngoContentContainer em, .page-container.donate .donate-container #ngoContentContainer font, .page-container.donate .donate-container #ngoContentContainer q, .page-container.donate .donate-container #ngoContentContainer s, .page-container.donate .donate-container #ngoContentContainer samp, .page-container.donate .donate-container #ngoContentContainer strike, .page-container.donate .donate-container #ngoContentContainer strong, .page-container.donate .donate-container #ngoContentContainer ol, .page-container.donate .donate-container #ngoContentContainer ul, .page-container.donate .donate-container #ngoContentContainer li, .page-container.donate .donate-container #ngoContentContainer fieldset, .page-container.donate .donate-container #ngoContentContainer form, .page-container.donate .donate-container #ngoContentContainer label, .page-container.donate .donate-container #ngoContentContainer legend, .page-container.donate .donate-container #ngoContentContainer tbody, .page-container.donate .donate-container #ngoContentContainer tfoot, .page-container.donate .donate-container #ngoContentContainer thead, .page-container.donate .donate-container #ngoContentContainer tr { font-family: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif !important; }
 
 .page-container.donate .volunteer .image-container { content: ''; background-image: url("./img/donate-volunteer-banner.jpg"); background-position: center; background-size: cover; background-repeat: no-repeat; position: absolute; top: 0; right: 0; height: 100%; }
@@ -506,7 +512,7 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
 
 .page-container.home .donate .modal.people .bio-img, .page-container.about .team .modal.people .bio-img { height: 150px; width: 150px; background-position: center; background-size: cover; background-repeat: no-repeat; border-radius: 50%; margin: -150px auto 0; }
 
-.page-container.home .donate .modal.people button.close, .page-container.about .team .modal.people button.close { background: #274BA0; opacity: 1; padding: 10px 14px; position: absolute; bottom: -24px; border-radius: 50%; left: 47%; }
+.page-container.home .donate .modal.people button.close, .page-container.about .team .modal.people button.close { background: #274BA0; opacity: 1; padding: 10px 14px; position: absolute; bottom: -24px; border-radius: 50%; left: 47%; z-index: 2; }
 
 .page-container.home .donate .modal.people button.close img, .page-container.about .team .modal.people button.close img { width: 13px; }
 
@@ -590,9 +596,12 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
 
 @media (min-width: 768px) { .page-container.about .impact .image-container { right: 15px; width: 45%; }
   .page-container.resources .reports-container .drop-container:nth-child(2n+1) { clear: both; }
-  .page-container.resources .reports-container .drop-container:nth-child(n+3) { padding-top: 50px; } }
+  .page-container.resources .reports-container .drop-container:nth-child(n+3) { padding-top: 50px; }
+  .page-container.home .donate .donate-container .swiper-wrapper .imgcontainer, .page-container.home .donate .donate-container .swiper-wrapper .bg-blue { min-height: 200px; } }
 
-@media (min-width: 991px) { .page-container.home .banner .image-container { width: 48vw; }
+@media (min-width: 991px) { .page-container.home #covid-popup .modal-dialog { width: 65vw; }
+  .page-container.home #covid-popup button.close { left: 98%; }
+  .page-container.home .banner .image-container { width: 48vw; }
   .page-container.home .aboutus .text-container { padding-right: 30px; }
   .page-container.home .aboutus .imgcontainer { padding-left: 30px; }
   .page-container.home .ourwork .workcard .blurb { min-height: 96px; }
@@ -630,6 +639,8 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
 
 @media (min-width: 992px) and (max-width: 1024px) { .page-container { padding-top: 58px; }
   .page-container.home .banner .image-container { right: calc((920px - 100vw)/2); }
+  .page-container.home .donate .donate-container .bg-green.pad50 { padding: 30px; }
+  .page-container.home .donate .donate-container .swiper-wrapper .imgcontainer, .page-container.home .donate .donate-container .swiper-wrapper .bg-blue { min-height: 150px; }
   .page-container.about .partners .partners-container .partner:nth-child(6n+1) { clear: both; }
   .page-container.about .partners .partners-container .partner:nth-child(n+7) { padding-top: 30px; }
   .page-container.resources .news-container .newscard .news-img { height: 175px; }
@@ -660,7 +671,7 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
   .shivamdrop .but { padding: 12px 20px; }
   .page-container.home #covid-popup .text-cont { padding: 15px 30px 30px; }
   .page-container.home #covid-popup .text-cont .text { max-height: 40vh; padding-right: 15px; }
-  .page-container.home #covid-popup button.close { top: initial; bottom: -24px; left: 44%; }
+  .page-container.home #covid-popup button.close { top: -24px; left: 90%; }
   .page-container.home .banner { padding-bottom: 20px; text-align: center; }
   .page-container.home .banner h1 { font-size: 1.8rem; }
   .page-container.home .aboutus h3 { font-size: 1.8rem; }
@@ -681,7 +692,10 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
   .page-container.home .reach .map-container { background-color: #DBECE9; padding: 30px 20px; }
   .page-container.home .reach .map-container .imgcontainer { background: none; padding: 0; }
   .page-container.home .reach .text-container { padding-top: 30px; }
+  .page-container.home .donate { padding-bottom: 20px; }
   .page-container.home .donate .donate-container { padding-top: 0; padding-bottom: 20px; }
+  .page-container.home .donate .donate-container .bg-green.pad50, .page-container.home .donate .donate-container .bg-lightblue { padding: 30px; }
+  .page-container.home .donate .donate-container #slider .swiper-slide .imgcontainer { height: 225px; }
   .page-container.home .donate .donate-container .text-container { padding-bottom: 30px; }
   .page-container.home .donate .donate-container .text-container h3 { margin-top: 0; }
   .page-container.donate .donate-form, .page-container.donate .non-donate, .page-container.donate .volunteer, .page-container.donate .advocates { padding-bottom: 30px; }

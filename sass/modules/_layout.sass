@@ -121,6 +121,8 @@
         #slider
             .swiper-slide
                 cursor: pointer
+                .imgcontainer
+                    @include bgdef
 
 .page-container.donate
     .donate-container
@@ -257,6 +259,7 @@
             bottom: -24px
             border-radius: 50%
             left: 47%
+            z-index: 2
             img
                 width: 13px
         button.close:hover
