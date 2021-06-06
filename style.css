@@ -606,6 +606,7 @@ p, .p2, .single-post .blog-content ul, .single-post .blog-content ol, .but { fon
   .page-container.home .aboutus .imgcontainer { padding-left: 30px; }
   .page-container.home .ourwork .workcard .blurb { min-height: 96px; }
   .page-container.home .ourwork .workcard:nth-child(n+4) { padding-top: 50px; }
+  .page-container.home .ourwork .workcard:nth-child(3n+1) { clear: both; }
   .page-container.donate .banner { position: relative; z-index: 1; }
   .page-container.donate .donate-form-container { position: relative; z-index: 3; }
   .page-container.donate .donate-form-container .text-container { margin-top: -100px; margin-bottom: 50px; }
