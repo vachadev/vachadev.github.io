@@ -114,4 +114,22 @@ $(document).ready(function(){
             $(button).html( curr + '<span class="caret"></span>' );
         }
     });
+    $('#page-selection li').click(function(){
+        newpage = $(this).attr('class');
+        curr = newpage.substr(-1);
+        console.log(curr);
+        if(newpage=='first') {
+            curr = 1;
+        }
+        if(newpage=='last') {
+            curr = total;
+        }
+        $('.singentry').addClass('hidden');
+        $('.singentry.page'+curr).removeClass('hidden');
+        $('.singpage').removeClass('active');
+        $('.singpage.paged'+curr).addClass('active');
+        $('html, body').animate({
+          scrollTop: $('#content').position().top - 50
+        }, 0);
+    });
 });

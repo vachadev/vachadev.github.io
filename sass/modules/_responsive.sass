@@ -60,10 +60,19 @@
             margin-top: 50px
         .team .teams-container .person:nth-child(5n+1)
             clear: both
-    .page-container.resources .reports-container .report:nth-child(n+5)
-        margin-top: 30px
-    .page-container.resources .reports-container .report:nth-child(4n+1)
-        clear: both
+    .page-container.resources 
+        .reports-container .report:nth-child(n+5)
+            margin-top: 30px
+        .reports-container .report:nth-child(4n+1)
+            clear: both
+        .inmedia .singcard .card
+            min-height: 126px
+            &:hover
+                background: #f7f7f7
+        .inmedia .singcard:nth-child(n+4)
+            margin-top: 30px
+        .inmedia .singcard:nth-child(3n+1)
+            clear: both
 
 @media (min-width: 1340px)
     .page-container.home .banner .image-container
@@ -428,6 +437,14 @@
             padding-bottom: 20px
             #banner-video
                 height: 275px !important
+        .inmedia 
+            .container.padtb100
+                padding-top: 50px
+                padding-bottom: 50px
+            h3.padb50
+                padding-bottom: 15px
+            .singcard:nth-child(n+2)
+                margin-top: 30px
 
     
     
