@@ -36,6 +36,14 @@
                 padding-top: 50px
             .workcard:nth-child(3n+1)
                 clear: both
+        .donate .scroller
+            max-height: 525px
+            overflow-y: scroll
+            padding-right: 30px
+            &::-webkit-scrollbar-thumb
+                background-color: $blue
+            &::-webkit-scrollbar-thumb, &::-webkit-scrollbar, &::-webkit-scrollbar-track
+                border-radius: 10px
     .page-container.donate
         .banner
             position: relative
